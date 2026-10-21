@@ -1,0 +1,50 @@
+{
+  "train_shape": [
+    14396,
+    18
+  ],
+  "test_shape": [
+    3600,
+    17
+  ],
+  "class_dist": {
+    "0": 500,
+    "1": 1098,
+    "2": 1018,
+    "3": 322,
+    "4": 310,
+    "5": 1157,
+    "6": 2069,
+    "7": 461,
+    "8": 1483,
+    "9": 2019,
+    "10": 3959
+  },
+  "missing_train": {
+    "Popularity": 333,
+    "key": 1609,
+    "instrumentalness": 3541
+  },
+  "n_features": 14,
+  "X_train_shape": [
+    14396,
+    14
+  ],
+  "X_test_shape": [
+    3600,
+    14
+  ],
+  "random_forest": {
+    "accuracy": 0.4576388888888889,
+    "f1_macro": 0.42834983444737146,
+    "precision_macro": 0.46991103977936177,
+    "recall_macro": 0.41267943893860504
+  },
+  "gradient_boosting": {
+    "accuracy": 0.4739583333333333,
+    "f1_macro": 0.44507550236885385,
+    "precision_macro": 0.4734371815751276,
+    "recall_macro": 0.43771946111187693
+  },
+  "best_model": "Gradient Boosting"
+}
